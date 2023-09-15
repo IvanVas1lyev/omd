@@ -1,12 +1,33 @@
-def step2_umbrella():
-    pass
+"""Duck story"""
 
 
-def step2_no_umbrella():
-    pass
+def step2_umbrella() -> None:
+    """
+    Print case duck with umbrella
+    :return: None
+    """
+    print(
+        'Утка-маляр 🦆 зонтик ☂️взяла.\n'
+        'И прямо на нем по реке поплыла.'
+    )
 
 
-def step1():
+def step2_no_umbrella() -> None:
+    """
+    Print case duck without umbrella
+    :return: None
+    """
+    print(
+        'Утка-маляр 🦆 зонт ☂️ не взяла.\n'
+        'Она ведь утка, ее перья не дают ей промокнуть.'
+    )
+
+
+def step1() -> None:
+    """
+    Print first question about duck
+    :return: None
+    """
     print(
         'Утка-маляр 🦆 решила выпить зайти в бар. '
         'Взять ей зонтик? ☂️'
